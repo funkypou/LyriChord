@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Lyrichord</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="header.css" />
+</head>
+
+<body>
+
+	<section role="region" class="skin-dark" id="songlist">
+		<header>
+			<h1>Songs</h1>
+		</header>
+<!--	Input for local browsing (not implemented as Firefox OS doesn't browse text files)
+		Can be useful for a desktop version -->
+<!--		<input type="file" id="input_file" accept="text/plain" />-->
+		<ul id="file_list"></ul>
+	</section>
+
+	<section role="region" class="skin-dark" id="songsheet">
+		<header>
+			<a href="index.html"><span class="icon icon-back">back</span></a>
+
+			<menu type="toolbar">
+				<button id="transpose-up"><span class="icon icon-up">transpose up</span></button>
+				<button id="transpose-down"><span class="icon icon-down">transpose down</span></button>
+			</menu>
+
+			<h1 id="title"></h1>
+		</header>
+
+		<header>
+			<h2 id="subtitle"></h2>
+		</header>
+
+		<section id="song">
+		</section>
+	</section>
+
+	<script type="text/javascript" src="lyrichord.js"></script>
+
+</body>
+</html>
