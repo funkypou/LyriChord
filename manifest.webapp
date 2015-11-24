@@ -1,0 +1,22 @@
+{
+	"name": "LyriChord",
+	"description": "Song sheets (lyrics and chords) viewer for files using the ChordPro format.\nThe files (*.txt, *.crd, *.cho, *.chopro, *.chordpro) have to be in a folder named 'songsheets'.\nPinch to zoom.",
+	"launch_path": "/index.html",	
+	"icons": {
+		"512": "/images/icon-512.png",
+		"128": "/images/icon-128.png",
+		"60": "/images/icon-60.png"
+	},
+	"developer": {
+		"name": "FunkyPou"
+	},
+	"default_locale": "en",
+	"type": "privileged",
+	"permissions": {
+		"device-storage:sdcard": {
+			"description": "Required to display the content of the 'songsheets' folder",
+			"access": "readonly"
+		}
+	},
+	"version": "0.1"
+}
