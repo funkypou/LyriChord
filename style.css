@@ -1,0 +1,73 @@
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+table {
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+	margin: 0;
+	white-space: pre;
+	font-size: 1.2rem;
+}
+
+td.chord {
+	color: #ffff00;
+	font-weight: bold;
+	padding-right: 2rem;
+}
+
+ul#file_list  {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+ul#file_list a, ul#file_list a:visited, ul#file_list a:active {
+	display: block;
+	font-size: 1.4rem;
+	padding: 1rem;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #242d33;
+}
+
+ul#file_list a:hover {
+	background-color: #242d33;
+}
+
+a#reload, a#reload:visited, a#reload:active {
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	background-color: #242d33;
+	font-size: 1.4rem;
+}
+
+section#songsheet {
+	display: none;	
+}
+
+section#songlist h1 {
+	padding: 0 1rem;	
+}
+
+menu {
+	display: none;	/* Transposing not yet implemented */
+}
